@@ -1,0 +1,10 @@
+﻿1> Class Types
+
+i> Static Classes
+- We dont need to instantiate the classes to use static methods. We can call directly method directly using calss name.
+- If we make classes static, we have to make all methods static as well
+- We should try not store data in static classes beacuse the value stays for the entire lifecycle of the application
+	i.e (more memory space) ex- public static int myAge;
+
+*Prop Tip: Use Class files to seperate your code so that each class and each methods have its own purpose
+(Single Responsibility Principle and DRY-Don't Repeat Yourself)
